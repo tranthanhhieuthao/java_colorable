@@ -13,7 +13,6 @@ public class Circle extends Shape   {
         super(color, filled);
         this.radius =radius;
     }
-
     public double getRadius(){
         return this.radius;
     }
@@ -21,7 +20,7 @@ public class Circle extends Shape   {
     public void setRadius(double radius){
         this.radius = radius;
     }
-
+    @Override
     public double getArea(){
         return Math.PI*this.radius*this.radius;
     }

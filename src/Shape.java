@@ -38,9 +38,8 @@
                     +" "
                     +( getfilled() ? "filled" : "not filled");
         }
-
-
-
-
+        public double getArea(){
+            return 0;
+        };
 
     }

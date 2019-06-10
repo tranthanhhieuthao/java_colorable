@@ -33,7 +33,7 @@ public class Rectangle extends Shape {
     public void setLength(double length){
         this.length =length;
     }
-
+    @Override
     public double getArea(){
         return this.width * this.length;
     }

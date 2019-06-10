@@ -6,10 +6,13 @@ public class Test {
         shapes[2] =  new square(1.2);
 
         for (Shape shape :shapes){
+
             if (shape instanceof square){
                 ((square) shape).howtocolor();
             }
-            else System.out.println((shape));
+            else {
+                System.out.println(shape.getArea());
+            }
         }
     }
 }
