@@ -1,5 +1,5 @@
 
-    public class Shape {
+    public abstract class Shape {
         String color ="green";
         boolean filled = true;
 
@@ -38,8 +38,6 @@
                     +" "
                     +( getfilled() ? "filled" : "not filled");
         }
-        public double getArea(){
-            return 0;
-        };
+        public abstract double getArea();
 
     }
